@@ -54,7 +54,7 @@ class WeatherFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        API = "c0a9795761514dfddb77991450e4996f"
+        API = ""
 
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this.requireContext())
         arguments?.let {
